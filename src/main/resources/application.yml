@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://xxx.xx.cn:3306/AchatUserService?serverTimezone=GMT%2B8
+    username: root
+    password: xxxxx
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 500MB
+server:
+  port: 39939
+
+
